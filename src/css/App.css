@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: left;
+    margin: 10px 0;
+    color: #104c97;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+    height: 100%;
+}
+
+.logo-link {
+    display: block;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: UPPERCASE;
+    font-size: 1.2em;
+}
+
+.logo {
+  width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.App-header, .topNav {
+  background-color: #104c97;
+  color: #ffffff;
+  height: 50px;
+  padding: 10px;
+  text-align: left;
+    position: fixed;
+    width: 100%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navBar {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255, 255, 255);
+    transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    border-radius: 0px;
+    height: 100%;
+    width: 256px;
+    position: fixed;
+    z-index: 1200;
+    left: 0px;
+    top: 0px;
+    transform: translate(0px, 0px);
+    overflow: auto;
+    text-align: left;
+}
+
+.navList {
+    margin-top: 50px;
+}
+
+.content {
+    min-height: 400px;
+    padding: 3px 10px;
+    padding-left: 265px;
+}
+
+.contentWrapper{padding: 10px 0; text-align: left;margin:10px;}
+
+.boxTitle{
+    height:50px;
+    background: #104c97;
+    color: #ffffff;
+    line-height:50px;
+    text-align: left;
+    font-size: 1.2em;
+    padding:0 10px;
+}
+
+.boxContent{padding: 10px;}
+
+.mainBody {
+    margin-top: 50px;
+}
+
+.button{
+    color: #ffffff;
+    margin:10px 0;
+    background-color: #a4c639;
+}
+
+.formBox{content:'';clear: both;display:block;}
+.formField{display:inline-block;margin-right:4%; width:21%;vertical-align: bottom;}
+.selectBox{vertical-align: bottom;}
+.gapBottom{margin-bottom:20px;}
